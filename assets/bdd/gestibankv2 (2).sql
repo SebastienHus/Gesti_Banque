@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3308
--- Généré le :  jeu. 23 jan. 2020 à 10:10
+-- Généré le :  jeu. 23 jan. 2020 à 11:16
 -- Version du serveur :  8.0.18
 -- Version de PHP :  7.3.12
 
@@ -74,6 +74,8 @@ CREATE TABLE IF NOT EXISTS `compte` (
   `tauxAGIOS` float NOT NULL,
   `autorisationDecouvert` tinyint(1) NOT NULL,
   `plafondDecouvert` float NOT NULL,
+  `tauxInterets` float NOT NULL,
+  `seuilMinRemu` float NOT NULL,
   PRIMARY KEY (`IdCompte`),
   KEY `cts13` (`IdClient`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
