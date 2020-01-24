@@ -5,37 +5,17 @@ public class Chequier {
 	//param(s)
 	
 	//Constructor(s)
-	public Notification() {
+	public Chequier() {
 		
 	}
 	
 	
 	//method(s)
-	public activateAccount() {
+	public orderChequier() {
 		
 	}
 	
-	public accountRefuse() {
-		
-	}
-	
-	public accountClosure() {
-		
-	}
-	
-	public accountSetting() {
-		
-	}
-	
-	public accountClose() {
-		
-	}
-	
-	public accountClosureRequest() {
-		
-	}
-	
-	public accountOpeningRequest() {
+	public refuseDemandOrderChequier() {
 		
 	}
 	

@@ -27,15 +27,15 @@ public class Compte {
 		
 	}
 	
-	public accountClose() {
-		
-	}
-	
 	public accountClosureRequest() {
 		
 	}
 	
 	public accountOpeningRequest() {
+		
+	}
+	
+	public transfert() {
 		
 	}
 	
