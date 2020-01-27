@@ -1,9 +1,10 @@
 @charset "ISO-8859-1";
-body {
-	color: red;
+body{
+    background-color: red; /*!important;*/
 }
 h2 {
 	color: bleu;
 	text-decoration: underline overline red;
+	text-align: center;
 	
-}s
+}
