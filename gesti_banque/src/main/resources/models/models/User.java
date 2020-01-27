@@ -3,22 +3,26 @@ package models;
 public class User {
 	
 	//param(s)
-	String User;
-	String lastName;
-	String email;
-	String password;
-	String phone;
-	Address address;
-	String typeOfUser;
+	private String login;
+	private  String firstname;
+	private  String lastName;
+	private  String email;
+	private  String password;
+	private  String phone;
+	private  Address address;
+	private  String typeOfUser;
 	
 	//Constructor(s)
-	 public User() {
-		 super();
-	 }
-
-	public User(String User, String lastName, String email, String password, String phone, Address address, String typeOfUser) {
+	public User() {
 		super();
-		this.User = User;
+		// TODO Auto-generated constructor stub
+	}
+
+	public User(String login, String firstname, String lastName, String email, String password, String phone,
+			Address address, String typeOfUser) {
+		super();
+		this.login = login;
+		this.firstname = firstname;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
@@ -26,13 +30,23 @@ public class User {
 		this.address = address;
 		this.typeOfUser = typeOfUser;
 	}
-
-	public String getUser() {
-		return User;
+	
+	//getters and setters
+	
+	public String getLogin() {
+		return login;
 	}
 
-	public void setUser(String user) {
-		User = user;
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
 	}
 
 	public String getLastName() {
@@ -82,8 +96,7 @@ public class User {
 	public void setTypeOfUser(String typeOfUser) {
 		this.typeOfUser = typeOfUser;
 	}
-			
-	//getters and setters
+	
 	
 
 }
