@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class Research {
 	
@@ -10,55 +11,53 @@ public class Research {
 	
 	
 	//method(s)
-	public searchByName() {
+	public List<User> getBylastName(String lastName) {
+		
+		return list
+		
+	}
+
+	public getByMail() {
 		
 	}
 	
-	public searchByFirstName() {
+	public getByPhone() {
 		
 	}
 	
-	public searchByMail() {
+	public getByMatricule() {
 		
 	}
 	
-	public searchByPhone() {
+	public getByDate() {
 		
 	}
 	
-	public searchByMatricule() {
+	public getByType() {
 		
 	}
 	
-	public searchByDate() {
+	public getByType() {
 		
 	}
 	
-	public searchByType() {
+	public getByNegative() {
 		
 	}
 	
-	public searchByType() {
+	public getByPositive() {
 		
 	}
 	
-	public searchByNegative() {
+	public getByDiscovered() {
 		
 	}
 	
-	public searchByPositive() {
+	public getByAuthorizationDiscovered() {
 		
 	}
 	
-	public searchByDiscovered() {
-		
-	}
-	
-	public searchByAuthorizationDiscovered() {
-		
-	}
-	
-	public searchByBalance() {
+	public getByBalance() {
 		
 	}
 	

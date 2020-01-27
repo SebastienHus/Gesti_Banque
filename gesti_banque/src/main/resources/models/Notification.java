@@ -11,6 +11,11 @@ public class Notification {
 		
 	//method(s)
 	public createNotification() {
+		
+		Notification notification =new notification();
+		
+		
+		
 			
 	}
 		
