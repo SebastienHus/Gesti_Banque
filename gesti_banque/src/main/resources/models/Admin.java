@@ -1,18 +1,20 @@
-package models;
+
 
 public class Admin extends User {
 
 	private String matriculeAdmin;
+	
+	//constructeurs
 
 	public Admin() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Admin(String login, String firstname, String lastName, String email, String password, String phone,
 			Address address, String typeOfUser) {
 		super(login, firstname, lastName, email, password, phone, address, typeOfUser);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Admin(String matriculeAdmin) {
@@ -20,6 +22,7 @@ public class Admin extends User {
 		this.matriculeAdmin = matriculeAdmin;
 	}
 
+	// getters et setters
 	public String getMatriculeAdmin() {
 		return matriculeAdmin;
 	}
