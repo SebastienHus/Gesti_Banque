@@ -4,13 +4,13 @@ public class User {
 	
 	//param(s)
 	private String login;
-	private  String firstname;
-	private  String lastName;
-	private  String email;
-	private  String password;
-	private  String phone;
-	private  Address address;
-	private  String typeOfUser;
+	private String firstname;
+	private String lastName;
+	private String email;
+	private String password;
+	private String phone;
+	private Address address;
+	private String typeOfUser;
 	
 	//Constructor(s)
 	public User() {
