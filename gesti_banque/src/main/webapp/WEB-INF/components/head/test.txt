@@ -1,0 +1,2 @@
+fichier a supprimer quand il y aura d autres vrai fichier
+je ne sert qu a implementer la logique front
