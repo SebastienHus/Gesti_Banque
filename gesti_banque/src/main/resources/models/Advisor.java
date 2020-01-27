@@ -1,4 +1,4 @@
-package models;
+
 
 public class Advisor extends User {
 
