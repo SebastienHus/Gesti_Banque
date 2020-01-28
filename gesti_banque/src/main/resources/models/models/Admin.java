@@ -68,4 +68,17 @@ public class Admin extends User {
 		else
 			return false;
 	}
+	
+	public Advisor readAdvisor(Advisor advisor ) {
+		
+		advisor.getAddress();
+		advisor.getEmail();
+		advisor.getFirstname();
+		advisor.getLastName();
+		advisor.getLogin();
+		advisor.getMatriculeAdvisor();
+		advisor.getPhone();
+		
+		return advisor;
+	}
 }
