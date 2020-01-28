@@ -3,6 +3,7 @@ package models;
 public class User {
 	
 	//param(s)
+	private String gender;
 	private String login;
 	private String firstname;
 	private String lastName;
@@ -18,9 +19,10 @@ public class User {
 		// TODO Auto-generated constructor stub
 	}
 
-	public User(String login, String firstname, String lastName, String email, String password, String phone,
+	public User(String gender ,String login, String firstname, String lastName, String email, String password, String phone,
 			Address address, String typeOfUser) {
 		super();
+		this.gender = gender;
 		this.login = login;
 		this.firstname = firstname;
 		this.lastName = lastName;
@@ -32,6 +34,14 @@ public class User {
 	}
 	
 	//getters and setters
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
 	
 	public String getLogin() {
 		return login;
