@@ -6,68 +6,58 @@ public class Research {
 	
 	//Constructor(s)
 	public Research() {
-		super();
+		
 	}
 	
 	
 	//method(s)
 	public List<User> getBylastName(String lastName) {
 		
-		return idUser;
+		return list
 		
 	}
 
-	public int getByMail(String mail) {
-		
-		return idUser;
+	public getByMail() {
 		
 	}
 	
-	public int getByPhone(String phone) {
-		
-		return idUser;
+	public getByPhone() {
 		
 	}
 	
-	public int getByMatricule(String matricule) {
-		
-		return idUser;
+	public getByMatricule() {
 		
 	}
 	
-	public List< Account > getByDateOpenAccount() {
-		
-		return listAccount;
+	public getByDate() {
 		
 	}
 	
-	public int getByType(String type) {
-		
-		return idUser;
+	public getByType() {
 		
 	}
 	
-	public List< Account > getByNegative() {
-		
-		return listAccount;
+	public getByType() {
 		
 	}
 	
-	public List< Account > getByPositive() {
-		
-		return listAccount;
+	public getByNegative() {
 		
 	}
 	
-	public List< Account > getByDiscovered(int discovered) {
-		
-		return listAccount;
+	public getByPositive() {
 		
 	}
 	
-	public List< Account > getByAuthorizationDiscovered() {
+	public getByDiscovered() {
 		
-		return listAccount;
+	}
+	
+	public getByAuthorizationDiscovered() {
+		
+	}
+	
+	public getByBalance() {
 		
 	}
 	

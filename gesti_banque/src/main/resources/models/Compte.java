@@ -1,12 +1,11 @@
-package models;
 
-public class Account {
+public class Compte {
 	
 	
 	//param(s)
 	
 	//Constructor(s)
-	public Account() {
+	public Notification() {
 		
 	}
 	
