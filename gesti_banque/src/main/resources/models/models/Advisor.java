@@ -1,8 +1,20 @@
 package models;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
 public class Advisor extends User {
 
 	private String matriculeAdvisor;
+	private Connection con=null;
+	private PreparedStatement st=null;
+	private ResultSet rs=null;
+	private java.sql.Date sqld;
+	private String dn;
+	private String dtn;
 
 	public Advisor() {
 		super();
@@ -51,5 +63,45 @@ public class Advisor extends User {
 
 	// pour la modification du compte il me faut la classe compte donc elle sera
 	// faite plus tard
+	
+	//pour afficher la liste des clients du conseiller
+	
+	public ArrayList<User> showClientList(String matricule)
+	{
+		 ArrayList <User> liste=new ArrayList<User>();
+		try
+		{
+			st=con.prepareStatement("select * from User Where IDRole = 1 AND Matricule =?");
+			st.setString(1, matricule);
+			rs=st.executeQuery();
+			while(rs.next())
+			{
+				User u=new User();
+				u.setFirstname(rs.getString("prenom"));
+				u.setGender(rs.getString("civilite"));
+				u.setLastName(rs.getString("nom"));
+				u.setPhone(rs.getString("telephone"));
+				u.setAddress(rs.get));
+
+				sqld=rs.getDate("DateNaisse");
+				dn=String.valueOf(sqld);
+				dtn=this.sqlEnChaine(dn);
+				u.setDatenaisse(dtn);
+				
+				u.setAdresse(rs.getString("Adresse"));
+				u.setTelephone(rs.getString("Telephone"));
+
+				
+				liste.add(u);
+				
+			}
+			
+		}
+		catch(SQLException ex)
+		{
+			System.out.println(ex.getMessage());
+		}
+		return liste;
+	}
 
 }
