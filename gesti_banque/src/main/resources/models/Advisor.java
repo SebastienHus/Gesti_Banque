@@ -9,9 +9,9 @@ public class Advisor extends User {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Advisor(String login, String firstname, String lastName, String email, String password, String phone,
+	public Advisor(String gender, String login, String firstname, String lastName, String email, String password, String phone,
 			Address address, String typeOfUser) {
-		super(login, firstname, lastName, email, password, phone, address, typeOfUser);
+		super(gender, login, firstname, lastName, email, password, phone, address, typeOfUser);
 		// TODO Auto-generated constructor stub
 	}
 
