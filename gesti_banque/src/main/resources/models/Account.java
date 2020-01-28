@@ -1,3 +1,4 @@
+<<<<<<< HEAD:gesti_banque/src/main/resources/models/Compte.java
 import java.util.Date;
 
 import models.Advisor;
@@ -23,6 +24,11 @@ public class Compte {
 		super();
 		
 	}
+=======
+package models;
+
+public class Account {
+>>>>>>> pirato:gesti_banque/src/main/resources/models/Account.java
 	
 	public Compte(String compteNumber, float solde, User titular, Date dateCreation, String rib, float agio,
 			boolean overdraftFacility, float overdraftLimit, float interest, float threshold) {
@@ -41,6 +47,7 @@ public class Compte {
 	
 	//getters and setters
 	
+<<<<<<< HEAD:gesti_banque/src/main/resources/models/Compte.java
 	public String getCompteNumber() {
 		return compteNumber;
 	}
@@ -123,6 +130,10 @@ public class Compte {
 
 	// method(s)
 	public Notification() {
+=======
+	//Constructor(s)
+	public Account() {
+>>>>>>> pirato:gesti_banque/src/main/resources/models/Account.java
 		
 	}
 
