@@ -10,15 +10,22 @@ public class Notification {
 		
 		
 	//method(s)
-	public createNotification() {
+	
+	//create
+	public void setNotification() {
 			
 	}
 		
-	public readNotification() {
+	//read
+	public List<Notification> getNotification() {
 			
+		return listNotification;
+		
 	}
 	
-	public deleteNotification() {
+	public boolean deleteNotification() {
+		
+		return result;
 		
 	}
 		
