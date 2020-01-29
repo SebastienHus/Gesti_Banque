@@ -10,20 +10,31 @@ public class Notification {
 		
 		
 	//method(s)
+<<<<<<< HEAD
 	public createNotification() {
 		
 		Notification notification =new notification();
 		
 		
 		
+=======
+	
+	//create
+	public void setNotification() {
+>>>>>>> pirato
 			
 	}
 		
-	public readNotification() {
+	//read
+	public List<Notification> getNotification() {
 			
+		return listNotification;
+		
 	}
 	
-	public deleteNotification() {
+	public boolean deleteNotification() {
+		
+		return result;
 		
 	}
 		
