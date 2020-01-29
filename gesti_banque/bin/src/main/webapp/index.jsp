@@ -1,4 +1,4 @@
-<!-- 
+<-- 
 	Point d'entrée app  
 	
 	gerer le visuel selon etat de connexion
