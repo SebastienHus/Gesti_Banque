@@ -32,7 +32,7 @@ public class Advisor extends User {
 	// l'ensemble des renseignements il lui suffira de cocher la validation de
 	// l'ouverture du compte
 
-	public boolean validateOpenCompte(boolean validation) {
+	public boolean validateOpenAccount(boolean validation) {
 		if (validation)
 			return true;
 		else
@@ -42,7 +42,7 @@ public class Advisor extends User {
 	// ici le conseiller doit vérifier que le solde du compte soit à 0 donc pas de
 	// découvert ni d'avoir pour valider la fermeture du compte en cochant la bonne
 	// case
-	public boolean validateClosedCompte(float solde, boolean close) {
+	public boolean validateClosedAccount(float solde, boolean close) {
 		if (solde == 0 && close == true)
 			return true;
 		else
