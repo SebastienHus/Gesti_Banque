@@ -13,11 +13,11 @@ public class Admin extends User {
 		
 	}
 
-	public Admin(String login, String firstname, String lastName, String email, String password, String phone,
+/*	public Admin(String login, String firstname, String lastName, String email, String password, String phone,
 			Address address, String typeOfUser) {
 		super(login, firstname, lastName, email, password, phone, address, typeOfUser);
 		
-	}
+	}*/
 
 	public Admin(String matriculeAdmin) {
 		super();
@@ -47,7 +47,7 @@ public class Admin extends User {
 		return pass;
 	}
 
-	public Advisor createAdvisor(User user, String matricule) {
+/*	public Advisor createAdvisor(User user, String matricule) {
 
 		Advisor advisor = new Advisor();
 
@@ -62,7 +62,7 @@ public class Admin extends User {
 
 		return advisor;
 
-	}
+	}*/
 
 	public boolean supprimerAgent(Advisor advisor, boolean deleteAdvisor) {
 		if (advisor != null && deleteAdvisor == true)

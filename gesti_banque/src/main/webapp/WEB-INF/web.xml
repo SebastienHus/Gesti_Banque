@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletConnexion</servlet-name>
+  	<display-name>ServletConnexion</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.ServletConnexion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Authentif</servlet-name>
+  	<display-name>Authentif</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.Authentif</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletConnexion</servlet-name>
+  	<url-pattern>/connexion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Authentif</servlet-name>
+  	<url-pattern>/Authentif</url-pattern>
+  </servlet-mapping>
 </web-app>
