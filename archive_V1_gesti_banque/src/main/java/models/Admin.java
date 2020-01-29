@@ -1,5 +1,3 @@
-package models;
-
 
 
 public class Admin extends User {
@@ -33,7 +31,7 @@ public class Admin extends User {
 		this.matriculeAdmin = matriculeAdmin;
 	}
 
-	// gï¿½nï¿½ration de mot de passe
+	// génération de mot de passe
 
 	public String generate(int lentgh) {
 

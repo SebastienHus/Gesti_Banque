@@ -1,5 +1,3 @@
-package models;
-
 
 public class Chequier {
 	
@@ -13,11 +11,11 @@ public class Chequier {
 	
 	
 	//method(s)
-	public void orderChequier() {
+	public orderChequier() {
 		
 	}
 	
-	public void refuseDemandOrderChequier() {
+	public refuseDemandOrderChequier() {
 		
 	}
 	

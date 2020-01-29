@@ -1,5 +1,3 @@
-package models;
-
 
 
 public class Advisor extends User {
@@ -30,7 +28,7 @@ public class Advisor extends User {
 		this.matriculeAdvisor = matriculeAdvisor;
 	}
 
-	// Si le conseiller veux valider l'ouverture du compte aprï¿½s avoir vï¿½rifier
+	// Si le conseiller veux valider l'ouverture du compte après avoir vérifier
 	// l'ensemble des renseignements il lui suffira de cocher la validation de
 	// l'ouverture du compte
 
@@ -41,8 +39,8 @@ public class Advisor extends User {
 			return false;
 	}
 
-	// ici le conseiller doit vï¿½rifier que le solde du compte soit ï¿½ 0 donc pas de
-	// dï¿½couvert ni d'avoir pour valider la fermeture du compte en cochant la bonne
+	// ici le conseiller doit vérifier que le solde du compte soit à 0 donc pas de
+	// découvert ni d'avoir pour valider la fermeture du compte en cochant la bonne
 	// case
 	public boolean validateClosedCompte(float solde, boolean close) {
 		if (solde == 0 && close == true)

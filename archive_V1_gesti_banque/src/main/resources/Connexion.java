@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 
 public class Connexion {
 
-	public  Connection Connexion() {
+	public  Connexion() {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
@@ -17,7 +17,6 @@ public class Connexion {
 
 			Connection con = DriverManager.getConnection(url, user, password);
 			return con;
-			
 		}
 
 		catch (Exception e) {

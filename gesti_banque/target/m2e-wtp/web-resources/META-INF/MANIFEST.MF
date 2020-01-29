@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: gk
 Build-Jdk: 1.8.0_241
 Created-By: Maven Integration for Eclipse
 
-=======
-Manifest-Version: 1.0
-Built-By: Sￃﾩbastien
-Build-Jdk: 1.8.0_231
-Created-By: Maven Integration for Eclipse
-
->>>>>>> pirato

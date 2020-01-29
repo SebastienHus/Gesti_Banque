@@ -1,3 +1,5 @@
+package models;
+
 import java.util.List;
 
 public class Research {
@@ -6,58 +8,68 @@ public class Research {
 	
 	//Constructor(s)
 	public Research() {
-		
+		super();
 	}
 	
 	
 	//method(s)
 	public List<User> getBylastName(String lastName) {
 		
-		return list
+		return idUser;
 		
 	}
 
-	public getByMail() {
+	public int getByMail(String mail) {
+		
+		return idUser;
 		
 	}
 	
-	public getByPhone() {
+	public int getByPhone(String phone) {
+		
+		return idUser;
 		
 	}
 	
-	public getByMatricule() {
+	public int getByMatricule(String matricule) {
+		
+		return idUser;
 		
 	}
 	
-	public getByDate() {
+	public List< Account > getByDateOpenAccount() {
+		
+		return listAccount;
 		
 	}
 	
-	public getByType() {
+	public int getByType(String type) {
+		
+		return idUser;
 		
 	}
 	
-	public getByType() {
+	public List< Account > getByNegative() {
+		
+		return listAccount;
 		
 	}
 	
-	public getByNegative() {
+	public List< Account > getByPositive() {
+		
+		return listAccount;
 		
 	}
 	
-	public getByPositive() {
+	public List< Account > getByDiscovered(int discovered) {
+		
+		return listAccount;
 		
 	}
 	
-	public getByDiscovered() {
+	public List< Account > getByAuthorizationDiscovered() {
 		
-	}
-	
-	public getByAuthorizationDiscovered() {
-		
-	}
-	
-	public getByBalance() {
+		return listAccount;
 		
 	}
 	
