@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.budapest</groupId>
-  <artifactId>GestiBankV3</artifactId>
+  <artifactId>gesti_banque</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>GestiBankV3 Maven Webapp</name>
+  <name>gesti_banque Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -43,7 +43,7 @@
   </dependencies>
 
   <build>
-    <finalName>GestiBankV3</finalName>
+    <finalName>gesti_banque</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

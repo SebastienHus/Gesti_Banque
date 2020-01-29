@@ -13,7 +13,7 @@ public class Research {
 	
 	
 	//method(s)
-	public List<User> getBylastName(String lastName) {
+	/*public List<User> getBylastName(String lastName) {
 		
 		return idUser;
 		
@@ -74,5 +74,5 @@ public class Research {
 	}
 	
 	//getters and setters
-
+*/
 }

@@ -1,5 +1,7 @@
 package models;
 
+import java.util.List;
+
 public class Notification {
 	
 	//param(s)
@@ -18,7 +20,7 @@ public class Notification {
 	}
 		
 	//read
-	public List<Notification> getNotification() {
+	/*public List<Notification> getNotification() {
 			
 		return listNotification;
 		
@@ -31,5 +33,5 @@ public class Notification {
 	}
 		
 	//getters and setters	
-
+*/
 }

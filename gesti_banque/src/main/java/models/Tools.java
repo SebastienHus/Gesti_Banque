@@ -5,7 +5,7 @@ public class Tools {
 	//param(s)
 	
 	//Constructor(s)
-	public Tools() {
+	/*public Tools() {
 			
 	}
 		
@@ -18,5 +18,5 @@ public class Tools {
 	}
 		
 	//getters and setters
-	
+	*/
 }

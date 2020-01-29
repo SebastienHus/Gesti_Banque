@@ -1,5 +1,7 @@
 package models;
 
+import java.util.Date;
+
 public class Compte {
 
 	// param(s)
@@ -119,7 +121,7 @@ public class Compte {
 	}
 
 	// method(s)
-	public Notification() {
+	/*public Notification() {
 		
 	}
 
@@ -149,7 +151,7 @@ public class Compte {
 
 	public transfert() {
 		
-	}
+	}*/
 
 	public float calculateSolde( float solde, float transaction) {
 		
