@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<style><%@include file="WEB-INF/components/head/header.jsp"%></style>
+ <style><%@include file="/WEB-INF/components/head/header.jsp"%></style> 
 
 </head>
 
@@ -17,7 +17,7 @@
         <fieldset id="logfield"  class="col-md-6 align-self-center f1">
                 <legend id="textInput">Se connecter</legend>
                 
-                <form name="formlog" id="logfield" class="border border-success p-5" method="POST" name="Connexion" action="" required>
+                <form name="formlog" id="logfield" class="border border-success p-5" method="POST" name="Connexion" action="Authentif" required>
                     <div id="logfield" class="row">
                         <div class="col-md-6">
                        
