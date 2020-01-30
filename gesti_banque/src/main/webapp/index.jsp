@@ -26,9 +26,18 @@
                
                 <!--<input class="btn btn-success btn-block my-4" id="button3" type="submit" value="Connexion">-->
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button type="button" id="button3" class="btn btn-secondary btn-lg btn-block my-4"><a href="../WEB-INF/views/common_views/login.jsp">Connexion</a></button>
                 <button type="button" id="button3" class="btn btn-secondary btn-lg btn-block my-4"><a href="index.jsp">Retour</a></button>
             <!-- </form>-->
+=======
+                <a href="connexion">Connexion
+                 <button type="button" id="button3" class="btn btn-secondary btn-lg btn-block my-4">Connexion</button></a>
+                <button type="button" id="button3" class="btn btn-secondary btn-lg btn-block my-4"><a href="index.jsp">Retour</a></button>
+            </div>
+            </div>
+          
+>>>>>>> master
 =======
                 <a href="connexion">Connexion
                  <button type="button" id="button3" class="btn btn-secondary btn-lg btn-block my-4">Connexion</button></a>
